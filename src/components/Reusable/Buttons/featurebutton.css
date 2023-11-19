@@ -1,0 +1,37 @@
+.feat-btn {
+  padding: 10px 100px;
+  background: var(--bs-primary);
+  color: white;
+  border-radius: 30px;
+}
+.feat-btn:hover {
+  background: #995ef8;
+}
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+  .feat-btn {
+    padding: 10px 51px;
+    background: var(--bs-primary);
+    color: white;
+    border-radius: 30px;
+  }
+  
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .feat-btn {
+    padding: 10px 95px;
+    background: var(--bs-primary);
+    color: white;
+    border-radius: 30px;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .feat-btn {
+    padding: 10px 49px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feat-btn {
+    padding: 9px 51px;
+  }
+}

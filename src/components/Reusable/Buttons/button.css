@@ -1,0 +1,9 @@
+.reus-btn{
+    padding: 10px 110px;
+    background: var(--bs-primary);
+    color: white;
+    border-radius: 30px;
+}
+.reus-btn:hover{
+    background: #9353f8;
+}

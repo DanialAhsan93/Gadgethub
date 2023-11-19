@@ -1,0 +1,132 @@
+/* .mbl-sect {
+    padding-top: 130px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.mbl-head {
+    font-size: 50px;
+    color: black;
+} */
+
+.filter-mbl {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+#Sort {
+    border: none;
+    cursor: pointer;
+}
+
+#Sort:focus {
+    outline: none;
+}
+.filter-category{
+    font-size: 16px;
+    position: relative;
+}
+
+.filter-sep{
+    position: relative !important;
+}
+.filter-sign{
+    cursor: pointer;
+}
+.underline{
+    position: absolute !important;
+    top: 57px;
+    left: 10px;
+    width: 171px;
+    height: 1px;
+    background: var(--bs-fourth);
+    border-radius: 9px;
+}
+.prd-cards{
+    width: 33%;
+}
+.mbl-map{
+    cursor: pointer;
+}
+.mbl-img{
+    transition: all .3s ease-in-out;
+}
+.mbl-img:hover{
+    transform: scale(1.2);
+}
+.mbl-main{
+    position: relative;
+    /* z-index: 5; */
+}
+.Firstcat-menu{
+    cursor: pointer;
+}
+.color-mbl{
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.color-mbl:hover{
+    background: rgb(36, 36, 37);
+
+}
+.cat-submenuaccord:nth-child(2) .color-mbl{
+    background: blue;
+}
+.cat-submenuaccord:nth-child(2) .color-mbl:hover{
+    background: rgb(56, 56, 247);
+}
+.cat-submenuaccord:nth-child(3) .color-mbl{
+    background: rgb(106, 236, 106);
+}
+.cat-submenuaccord:nth-child(3) .color-mbl:hover{
+    background: rgb(147, 240, 147);
+}
+.cat-submenuaccord:nth-child(4) .color-mbl{
+    background: orange;
+}
+.cat-submenuaccord:nth-child(4) .color-mbl:hover{
+    background: rgb(247, 180, 57);
+}
+.cat-submenuaccord:nth-child(5) .color-mbl{
+    background: purple;
+}
+.cat-submenuaccord:nth-child(5) .color-mbl:hover{
+    background: rgb(134, 75, 134);
+}
+.cat-submenuaccord:last-child .color-mbl{
+    background: red;
+}
+.cat-submenuaccord:last-child .color-mbl:hover{
+    background: rgb(247, 48, 48);
+
+}
+.cat-submenuaccord{
+    list-style: none;
+    padding-inline-end: 7px;
+}
+.clr-menushop{
+    display: flex;
+    padding-top: 15px;
+    position: relative;
+}
+.mouse-textshop{
+    position: absolute;
+    top: -22px;
+    left: 48px;
+}
+.mbl-products{
+    position: relative;
+}
+.mbl-saletag{
+    background-color: var(--bs-fifth);
+    color: var(--bs-tertiary);
+    width: 15%;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}

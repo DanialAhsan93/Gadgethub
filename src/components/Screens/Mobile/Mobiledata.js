@@ -1,0 +1,225 @@
+import Mobile1 from "../../Assets/Images2/Mobile1.webp"
+import Mobile2 from "../../Assets/Images2/Mobile2.webp"
+import Mobil3 from "../../Assets/Images2/Mobil3.webp"
+import Mobile4 from "../../Assets/Images2/Mobile4.webp"
+import Mobile5 from "../../Assets/Images2/Mobile5.webp"
+import Mobile6 from "../../Assets/Images2/Mobile6.webp"
+import Mobile7 from "../../Assets/Images2/Mobile7.webp"
+import Mobile8 from "../../Assets/Images2/Mobile8.webp"
+
+
+export const mbldata = [
+    {
+        "id": 1,
+        "title": "Pantony X21 5G, 128GB With Z Pen",
+        "quantity": 0,
+        "price": "$85",
+        "discprice": "$70",
+       "Sale":"Sale","Sale2":"Sale",
+        "Type":"Mobile",
+        "description": "I'm a product description. This is a great place to 'sell' your product and grab buyers' attention. Describe your product clearly and concisely. Use unique keywords. Write your own description instead of using manufacturers' copy.",
+        "Infohead": "Product Info",
+        "Infodetail": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+        "Return": "Return&Refund Policy",
+        "ReturnDescrip": "I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.",
+        "Shipinfo": "Ship Info",
+        "ShipDecrip": "I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.",
+        thumbnail: Mobile1,
+        "link": "Home",
+        "heart": "false",
+        "linkM": "Mobile",
+        "SKU": "SKU : 009",
+        "Prev": "Prev",
+        "Next": "Next",
+        "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        ]
+
+
+    },
+    {
+        "id": 2,
+        "title": "JP Exmax Phantom, 5G, 16GB",
+        "quantity": 0,
+        "price": "$85",
+        "discprice": "$70",
+       "Sale":"Sale","Sale2":"No-Sale",
+        "Type":"Mobile",
+        "description": "I'm a product description. This is a great place to 'sell' your product and grab buyers' attention. Describe your product clearly and concisely. Use unique keywords. Write your own description instead of using manufacturers' copy.",
+        "Infohead": "Product Info",
+        "Info-detail": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+        thumbnail: Mobile2,
+        "Return": "Return&Refund Policy",
+        "ReturnDescrip": "I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.",
+        "Shipinfo": "Ship Info",
+        "ShipDecrip": "I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.",
+        "link": "Home",
+        "heart": "false",
+        "linkM": "Mobile",
+        "SKU": "SKU : 009",
+        "Prev": "Prev",
+        "Next": "Next",
+    },
+    {
+        "id": 3,
+        "title": "Smartphone Z Pixel Max 128GB Unlocked",
+        "quantity": 0,
+        "price": "$85",
+        "discprice": "$70",
+       "Sale":"Sale","Sale2":"Sale",
+        "Type":"Mobile",
+        "description": "I'm a product description. This is a great place to 'sell' your product and grab buyers' attention. Describe your product clearly and concisely. Use unique keywords. Write your own description instead of using manufacturers' copy.",
+        "Infohead": "Product Info",
+
+        "Info-detail": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+        "Return": "Return&Refund Policy",
+
+        "ReturnDescrip": "I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.",
+        "Shipinfo": "Ship Info",
+        "ShipDecrip": "I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.",
+        thumbnail: Mobil3,
+        "link": "Home",
+        "heart": "false",
+        "linkM": "Mobile",
+        "SKU": "SKU : 009",
+        "Prev": "Prev",
+        "Next": "Next",
+
+    },
+    {
+        "id": 4,
+        "title": "OVE Light Space 5G, 128GB",
+        "quantity": 0,
+        "price": "$85",
+        "discprice": "$70",
+       "Sale":"Sale","Sale2":"No-Sale",
+        "Type":"Mobile",
+        "description": "I'm a product description. This is a great place to 'sell' your product and grab buyers' attention. Describe your product clearly and concisely. Use unique keywords. Write your own description instead of using manufacturers' copy.",
+        "Infohead": "Product Info",
+
+        "Info-detail": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+        "Return": "Return&Refund Policy",
+
+        "ReturnDescrip": "I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.",
+        "Shipinfo": "Ship Info",
+        "ShipDecrip": "I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.",
+        thumbnail: Mobile4,
+        "link": "Home",
+        "heart": "false",
+        "linkM": "Mobile",
+        "SKU": "SKU : 009",
+        "Prev": "Prev",
+        "Next": "Next",
+
+    },
+    {
+        "id": 5,
+        "title": "Pantony Super 10W 5G, 128GB",
+        "quantity": 0,
+        "price": "$85",
+        "discprice": "$70",
+       "Sale":"Sale","Sale2":"Sale",
+        "Type":"Mobile",
+        "description": "I'm a product description. This is a great place to 'sell' your product and grab buyers' attention. Describe your product clearly and concisely. Use unique keywords. Write your own description instead of using manufacturers' copy.",
+        "Infohead": "Product Info",
+
+        "Info-detail": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+        "Return": "Return&Refund Policy",
+
+        "ReturnDescrip": "I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.",
+        "Shipinfo": "Ship Info",
+        "ShipDecrip": "I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.",
+        thumbnail: Mobile5,
+        "link": "Home",
+        "heart": "false",
+        "linkM": "Mobile",
+        "SKU": "SKU : 009",
+        "Prev": "Prev",
+        "Next": "Next",
+
+    },
+    {
+        "id": 6,
+        "title": "JP Light Phantom, 5G, 16GB",
+        "quantity": 0,
+        "price": "$85",
+        "discprice": "$70",
+       "Sale":"Sale","Sale2":"No-Sale",
+        "description": "I'm a product description. This is a great place to 'sell' your product and grab buyers' attention. Describe your product clearly and concisely. Use unique keywords. Write your own description instead of using manufacturers' copy.",
+        "Infohead": "Product Info",
+        "Type":"Mobile",
+        "Info-detail": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+        "Return": "Return&Refund Policy",
+
+        "ReturnDescrip": "I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.",
+        "Shipinfo": "Ship Info",
+        "ShipDecrip": "I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.",
+        thumbnail: Mobile6,
+        "link": "Home",
+        "heart": "false",
+        "linkM": "Mobile",
+        "SKU": "SKU : 009",
+        "Prev": "Prev",
+        "Next": "Next",
+
+    },
+    {
+        "id": 7,
+        "title": "Go XPD Protector 5G, 16GB",
+        "quantity": 0,
+        "price": "$85",
+        "discprice": "$70",
+       "Sale":"Sale","Sale2":"Sale",
+        "description": "I'm a product description. This is a great place to 'sell' your product and grab buyers' attention. Describe your product clearly and concisely. Use unique keywords. Write your own description instead of using manufacturers' copy.",
+        "Infohead": "Product Info",
+        "Type":"Mobile",
+        "Info-detail": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+        "Return": "Return&Refund Policy",
+
+        "ReturnDescrip": "I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.",
+        "Shipinfo": "Ship Info",
+        "ShipDecrip": "I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.",
+        thumbnail: Mobile7,
+        "link": "Home",
+        "heart": "false",
+        "linkM": "Mobile",
+        "SKU": "SKU : 009",
+        "Prev": "Prev",
+        "Next": "Next",
+
+    },
+    {
+        "id": 8,
+        "title": "MAX Pantony S 5G, 128GB",
+        "quantity": 0,
+        "Color": "blue",
+        "price": "$85",
+        "discprice": "$70",
+       "Sale":"Sale","Sale2":"Sale",
+        "description": "I'm a product description. This is a great place to 'sell' your product and grab buyers' attention. Describe your product clearly and concisely. Use unique keywords. Write your own description instead of using manufacturers' copy.",
+        "Infohead": "Product Info",
+        "Type":"Mobile",
+        "Info-detail": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+        "Return": "Return&Refund Policy",
+
+        "ReturnDescrip": "I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.",
+        "Shipinfo": "Ship Info",
+        "ShipDecrip": "I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.",
+        thumbnail: Mobile8,
+        "link": "Home",
+        "heart": "false",
+        "linkM": "Mobile",
+        "SKU": "SKU : 009",
+        "Prev": "Prev",
+        "Next": "Next",
+        "images": [
+
+        ]
+
+    },
+
+]

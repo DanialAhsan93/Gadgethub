@@ -1,0 +1,170 @@
+.filter-categorylarge {
+    font-size: 16px;
+    position: relative;
+}
+
+.filter-sep {
+    position: relative !important;
+}
+
+.filter-signlarge {
+    cursor: pointer;
+}
+
+/* .underline{
+    position: absolute !important;
+    top: 57px;
+    left: 10px;
+    width: 171px;
+    height: 1px;
+    background: var(--bs-fourth);
+    border-radius: 9px;
+} */
+.prd-cards {
+    width: 33%;
+}
+
+.mbl-map {
+    cursor: pointer;
+}
+
+.mbl-img {
+    transition: all .3s ease-in-out;
+}
+
+.mbl-img:hover {
+    transform: scale(1.2);
+}
+
+.mbl-main {
+    position: relative;
+    /* z-index: 5; */
+}
+
+.Firstcat-menu {
+    cursor: pointer;
+}
+
+.color-mbllarge {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-mbllarge:hover {
+    background: rgb(88, 88, 247);
+
+}
+
+.cat-submenularge:nth-child(2) .color-mbl {
+    background: red;
+}
+
+.cat-submenularge:nth-child(2) .color-mbl:hover {
+    background: rgb(250, 101, 101);
+}
+
+.cat-submenularge:last-child .color-mbl {
+    background: purple;
+}
+
+.cat-submenularge:last-child .color-mbl:hover {
+    background: rgb(134, 75, 134);
+}
+
+.cat-submenularge {
+    list-style: none;
+    padding-inline-end: 7px;
+    cursor: pointer;
+}
+
+.clr-menularge {
+    display: flex;
+    position: relative;
+}
+
+.mouse-text {
+    position: absolute;
+    top: -48px;
+    left: 48px;
+}
+
+.mbl-products {
+    position: relative;
+}
+.horizontal-slider {
+    width: 100%;
+    height: 6px;
+    margin-top: 10px;
+
+  }
+  
+  .example-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #333333;
+    border-radius: 50%;
+    cursor: grab;
+    position: relative;
+    top: -7px;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid #333333;
+  }
+  .example-track {
+    background-color: #333333;
+    height: 2px;
+    position: relative;
+  }
+  
+  
+@media (min-width: 375px) and (max-width: 425px) {
+    .filter-categorylarge {
+        font-weight: 700;
+    }
+
+    .filter-columnlarge {
+        display: none;
+    }
+
+    /* .filter-mbl {
+        font-size: 20px;
+        padding: 10px 90px;
+        background: transparent;
+    }  */
+    .underline {
+        display: none;
+    }
+
+    .filter-sep {
+        position: relative !important;
+        width: 72%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .filter-categorylarge {
+        font-weight: 700;
+    }
+
+    .filter-columnlarge {
+        display: none;
+    }
+
+    /* .filter-mbl {
+        font-size: 20px;
+        padding: 10px 60px;
+        background: transparent;
+    } */
+    .underline {
+        display: none;
+    }
+
+    .filter-sep {
+        position: relative !important;
+        width: 75%;
+    }
+
+}

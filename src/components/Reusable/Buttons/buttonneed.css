@@ -1,0 +1,12 @@
+.need-btn{
+    padding: 10px 30px;
+    background: var(--bs-primary);
+    color: white;
+    border: none !important;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+.need-btn:hover{
+    background: white;
+    color: var(--bs-sec);
+}

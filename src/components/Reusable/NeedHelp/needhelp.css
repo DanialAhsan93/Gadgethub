@@ -1,0 +1,36 @@
+.need-left {
+    color: white;
+  }
+  .need-row{
+    position: relative;
+}
+  
+  .need-bg {
+    clip-path: polygon(89% 0, 89% 25%, 100% 100%, 0 100%, 0 0);
+    background: var(--bs-sec);
+    z-index: 1; 
+    position: absolute;
+    top: 17px;
+    left: -1%;
+    width: 715px;
+  }
+.sub-needlft h3{
+    width: 70%;
+    line-height: 40px;
+    word-spacing: 2px;
+}
+.sub-needlft p{
+    font-weight: normal;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.need-row{
+    position: relative;
+}
+.need-right img {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    z-index: 0; 
+}
+  

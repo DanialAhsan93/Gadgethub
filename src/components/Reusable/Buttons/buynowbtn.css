@@ -1,0 +1,29 @@
+.buy-btn {
+  padding: 10px 150px;
+  background: var(--bs-sec);
+  color: white;
+  border-radius: 30px;
+}
+.buy-btn:hover {
+  background: rgb(41, 40, 40);
+}
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+  .buy-btn {
+    padding: 10px 88px;
+  }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .buy-btn {
+    padding: 10px 125px;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .buy-btn {
+    padding: 9px 85px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .buy-btn {
+    padding: 10px 90px;
+  }
+}

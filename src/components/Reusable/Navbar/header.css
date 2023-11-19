@@ -1,0 +1,228 @@
+.nav-sect {
+    padding: 5px 25px;
+}
+
+.nav-logo {
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    position: relative;
+
+}
+
+.Nav-search {
+    padding: 12px 30px 12px 13px;
+    font-size: 13px;
+    background-color: #EDECEC;
+    width: 70%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+
+.nav-contain {
+    width: 50%;
+}
+
+.nav-icon {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background: var(--bs-primary);
+    color: white;
+}
+.cart-icon{
+    font-size: 20px;
+    font-weight: 700;
+}
+.offcanvas {
+    transition: transform 0.5s ease-in-out;
+}
+
+.offcanvas-end{
+    width: 26%;
+
+}
+.offcanvas-title{
+    font-size: 25px;
+    font-weight: 400;
+}
+.offcanvas.offcanvas-top {
+    height: 100vh;
+}
+
+    .toggle-button {
+    /* top: 17px;
+    right: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    transition: 0.3s ease-in-out;
+
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .navbar.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .dropdown{
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    top: 67%;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+    transition: 0.3s ease-in-out;
+  }
+  .dropdown .close-icon {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+
+  }
+  
+  .dropdown ul li {
+    list-style: none;
+    padding: 15px 0px;
+  }
+  .small-login{
+    list-style: none;
+  }
+  .cart-img{
+    width: 95% !important;
+    height: 25vh !important;
+  }
+  .cart-card-right{
+    position: relative;
+  }
+  .cart-row{
+    transition: all 0.3s ease-in-out;
+
+  }
+  .cart-close{
+    position: absolute;
+    top: 0;
+    right: -30px;
+    color: var(--bs-sec);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn-cart{
+    color: white;
+    padding: 13px 100px;
+    border:none ;
+  }
+  .cart-row:hover .cart-close{
+   visibility: visible;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 980px) {
+    .nav-logo {
+      font-size: 17px;
+  
+    }
+    .nav-sect {
+      padding: 13px 25px;
+    }
+    .subheader-link{
+      font-size: 11px !important;
+      padding-inline-end: 21px !important;  
+  }
+  }
+  @media only screen and (min-width: 426px) and (max-width: 767px) {
+    .nav-logo {
+      font-size: 14px;
+  
+    }
+    .nav-sect {
+      padding: 13px 25px;
+    }
+    .Nav-search {
+      padding: 9px 9px 9px 13px;
+      font-size: 12px;
+      width: 60%;
+
+  }
+  .login-icon{
+    font-size: 20px !important;
+  }
+  .fvr-icon{
+    font-size: 15px !important;
+  }
+  .fvricon-txt{
+    font-size: 12px !important;
+  }
+  .subheader-link{
+        font-size: 8px !important;
+        padding-inline-end: 16px !important;  
+  }
+  }
+
+  @media (min-width: 375px) and (max-width: 425px) {
+    .nav-logo {
+      font-size: 21px;
+    }
+    .nav-sect {
+        padding: 13px 20px;
+    }
+    .small-cart{
+        margin-left: 40px !important;
+    }
+    .toggle-button .bar {
+        height: 2px;
+        width: 90%;
+        
+      }
+      .btn-cart{
+        padding: 10px 80px !important;
+      }
+      .rotate-icon {
+        transition: transform 0.3s !important;
+      }
+      
+      .rotate-icon.opened {
+        transform: rotate(180deg) !important;
+      }
+      
+  }
+  @media (min-width: 280px) and (max-width: 375px) {
+    .nav-logo {
+        font-size: 16px;
+    }
+    .nav-sect {
+        padding: 13px 20px;
+    }
+    .small-cart{
+        margin-left: 40px !important;
+    }
+    .toggle-button .bar {
+        height: 2px;
+        width: 90%;
+      }
+    .subheader-menu{
+      width: 100%;
+    }
+    .btn-cart{
+      padding: 10px 80px !important;
+    }
+    .nav-logo {
+      font-size: 21px;}
+    
+  }
